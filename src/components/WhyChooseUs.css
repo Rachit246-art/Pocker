@@ -85,6 +85,9 @@
   font-weight: 600;
   margin-bottom: 1rem;
   letter-spacing: 0.5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .wcu-card p {
@@ -212,5 +215,13 @@
   
   .wcu-large p {
     max-width: 100%;
+  }
+
+  .wcu-btn {
+    white-space: normal;
+    text-align: center;
+    padding: 1rem;
+    align-self: stretch;
+    width: auto;
   }
 }

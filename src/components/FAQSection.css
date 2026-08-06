@@ -111,6 +111,9 @@
 }
 
 @media (max-width: 768px) {
+  .faq-title {
+    font-size: 2rem;
+  }
   .faq-question h3 {
     font-size: 1.1rem;
     padding-right: 1rem;

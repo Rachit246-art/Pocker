@@ -197,6 +197,10 @@
 }
 
 @media (max-width: 640px) {
+  .tournaments-title {
+    font-size: 2rem;
+  }
+  
   .tournament-row {
     flex-direction: column;
     align-items: flex-start;

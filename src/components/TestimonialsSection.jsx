@@ -1,8 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import './TestimonialsSection.css';
 
@@ -31,8 +30,7 @@ const TestimonialsSection = () => {
   return (
     <section className="testimonials-section">
       <Swiper
-        modules={[Autoplay, EffectFade, Pagination]}
-        effect="fade"
+        modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         loop={true}
