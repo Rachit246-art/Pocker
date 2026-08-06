@@ -30,9 +30,9 @@ const TournamentsSection = () => {
   ];
 
   return (
-    <section className="tournaments-section">
+    <section className="tournaments-section" id="tournaments">
       <div className="tournaments-header">
-        <h4 className="tournaments-subtitle">COMPETE WITH THE BEST</h4>
+        <h4 className="tournaments-subtitle">LOREM IPSUM</h4>
         <h2 className="tournaments-title">UPCOMING <span className="gold-text">TOURNAMENTS</span></h2>
         <div className="tournaments-divider"></div>
       </div>

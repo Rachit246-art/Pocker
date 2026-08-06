@@ -3,7 +3,6 @@
   height: 100vh; /* Full viewport height */
   position: relative;
   overflow: hidden;
-  margin-top: -80px; /* Pull up under the transparent navbar */
 }
 
 .mySwiper {
@@ -112,12 +111,26 @@
 }
 
 @media (max-width: 992px) {
+  .hero-slider-container {
+    height: 60vh !important;
+  }
+  .slide-image {
+    object-fit: contain !important;
+    background-color: #050505 !important;
+  }
   .css-banner-overlay { padding: 3rem 4rem; }
   .css-banner-title { font-size: 4rem; }
   .css-banner-subtitle { font-size: 1.2rem; letter-spacing: 8px; }
 }
 
 @media (max-width: 768px) {
+  .hero-slider-container {
+    height: 50vh !important;
+  }
+  .slide-image {
+    object-fit: contain !important;
+    background-color: #050505 !important;
+  }
   .css-banner-overlay { padding: 2rem; width: 90%; }
   .css-banner-title { font-size: 2.5rem; }
   .css-banner-subtitle { font-size: 1rem; letter-spacing: 4px; }

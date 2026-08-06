@@ -3,7 +3,7 @@ import './AboutSection.css';
 
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="about-container">
         <div className="about-image-column">
           <div className="about-image-wrapper">
@@ -12,14 +12,14 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="about-text-column">
-          <h4 className="about-subtitle">OUR LEGACY</h4>
+          <h4 className="about-subtitle">LOREM IPSUM</h4>
           <h2 className="about-title">A TRADITION OF <br/><span className="gold-text">EXCELLENCE</span></h2>
           <div className="about-divider"></div>
           <p className="about-description">
-            Established with a vision to redefine luxury gaming, our club has been the premier destination for high-stakes excitement and unparalleled service. We blend the timeless allure of classic casino elegance with modern, world-class amenities.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <p className="about-description">
-            Whether you are a seasoned professional looking for competitive tables or a guest seeking a lavish night out, we provide an environment where every detail is meticulously crafted for your enjoyment.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
           <div className="about-stats">
              <div className="about-stat-item">

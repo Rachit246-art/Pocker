@@ -17,7 +17,7 @@ const StatsSection = () => {
       <div className="stats-container">
         <div className="stats-header">
           <h2 className="stats-title">THE NUMBERS SPEAK</h2>
-          <p className="stats-subtitle">Join the city's most trusted gaming community.</p>
+          <p className="stats-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         
         <div className="stats-grid">

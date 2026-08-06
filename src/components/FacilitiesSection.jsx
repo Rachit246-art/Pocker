@@ -6,21 +6,21 @@ const FacilitiesSection = () => {
     {
       id: 1,
       title: 'Fine Dining',
-      description: 'Experience culinary masterpieces prepared by world-renowned chefs in an intimate, elegant setting.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
       image: '/facility1.png'
     },
     {
       id: 2,
       title: 'Private Suites',
-      description: 'Exclusive, high-roller suites offering privacy, personalized service, and uncompromising luxury.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
       image: '/facility2.png'
     }
   ];
 
   return (
-    <section className="facilities-section">
+    <section className="facilities-section" id="facilities">
       <div className="facilities-header">
-        <h4 className="facilities-subtitle">BEYOND GAMING</h4>
+        <h4 className="facilities-subtitle">LOREM IPSUM</h4>
         <h2 className="facilities-title">WORLD-CLASS FACILITIES</h2>
         <div className="facilities-divider"></div>
       </div>

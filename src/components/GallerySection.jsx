@@ -12,9 +12,9 @@ const GallerySection = () => {
   ];
 
   return (
-    <section className="gallery-section">
+    <section className="gallery-section" id="gallery">
       <div className="gallery-header">
-        <h4 className="gallery-subtitle">THE LIFESTYLE</h4>
+        <h4 className="gallery-subtitle">LOREM IPSUM</h4>
         <h2 className="gallery-title">A GLIMPSE <span className="gold-text">INSIDE</span></h2>
         <div className="gallery-divider"></div>
       </div>

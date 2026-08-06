@@ -9,19 +9,19 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "The level of service and attention to detail here is simply unmatched. It is my preferred destination for high-stakes play.",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       author: "Marcus T.",
       title: "VIP Member since 2018"
     },
     {
       id: 2,
-      quote: "From the private suites to the fine dining, every aspect of this club exudes luxury and professionalism.",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       author: "Elena R.",
       title: "Professional Player"
     },
     {
       id: 3,
-      quote: "A truly world-class environment. The tournaments are incredibly well-structured and the dealers are flawless.",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       author: "James W.",
       title: "Tournament Champion"
     }

@@ -3,16 +3,16 @@ import './ContactSection.css';
 
 const ContactSection = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="contact-container">
         
         <div className="contact-info-column">
-          <h4 className="contact-subtitle">GET IN TOUCH</h4>
+          <h4 className="contact-subtitle">LOREM IPSUM</h4>
           <h2 className="contact-title">RESERVE YOUR <span className="gold-text">SEAT</span></h2>
           <div className="contact-divider"></div>
           
           <p className="contact-description">
-            Whether you are inquiring about VIP membership, booking a private suite, or registering for an upcoming grand tournament, our concierge is at your service 24/7.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
 
           <div className="contact-details">

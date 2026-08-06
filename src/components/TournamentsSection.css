@@ -124,6 +124,7 @@
   color: transparent;
   background: linear-gradient(to right, #FFF1B9, #D4AF37);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 20px rgba(212,175,55,0.2);
 }

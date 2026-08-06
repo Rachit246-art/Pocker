@@ -6,21 +6,21 @@ const OffersSection = () => {
     {
       id: 1,
       title: 'High Stakes Tables',
-      description: 'Experience the ultimate thrill at our premium high stakes tables, featuring professional dealers, uninterrupted service, and a discreet, luxurious atmosphere designed for serious players.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       image: '/offer1.png',
       reverse: false
     },
     {
       id: 2,
       title: 'Exclusive VIP Lounge',
-      description: 'Relax and unwind in our private VIP lounge. Enjoy complimentary top-tier cuisine, premium beverages, and a quiet sanctuary away from the main floor action.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       image: '/offer2.png',
       reverse: true
     },
     {
       id: 3,
       title: 'Weekly Grand Tournaments',
-      description: 'Compete against the best in our weekly grand tournaments. With massive prize pools, structured blinds, and a competitive environment, it is the perfect stage to showcase your skills.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       image: '/offer3.png',
       reverse: false
     }
@@ -29,7 +29,7 @@ const OffersSection = () => {
   return (
     <section className="offers-section">
       <div className="offers-header">
-        <h2 className="offers-subtitle">DISCOVER</h2>
+        <h2 className="offers-subtitle">LOREM IPSUM</h2>
         <h1 className="offers-title">WHAT WE OFFER</h1>
         <div className="title-divider"></div>
       </div>

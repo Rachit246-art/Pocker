@@ -11,22 +11,16 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      image: '/text-banner-1.png'
+      image: '/Banner 1.png'
     },
     {
       id: 2,
       image: '/text-banner-2.png'
-    },
-    {
-      id: 3,
-      image: '/banner3.png',
-      title: 'PLATINUM EVENT',
-      subtitle: '$1,000,000 GUARANTEED'
     }
   ];
 
   return (
-    <div className="hero-slider-container">
+    <div className="hero-slider-container" id="home">
       <Swiper
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
         effect="fade"

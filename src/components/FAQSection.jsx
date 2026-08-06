@@ -30,7 +30,7 @@ const FAQSection = () => {
   return (
     <section className="faq-section">
       <div className="faq-header">
-        <h4 className="faq-subtitle">NEED TO KNOW</h4>
+        <h4 className="faq-subtitle">LOREM IPSUM</h4>
         <h2 className="faq-title">FREQUENTLY ASKED <span className="gold-text">QUESTIONS</span></h2>
         <div className="faq-divider"></div>
       </div>
