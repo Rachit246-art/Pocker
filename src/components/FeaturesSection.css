@@ -1,0 +1,85 @@
+.features-section {
+  padding: 6rem 2rem;
+  background-color: #050505; /* Matching dark background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  letter-spacing: 0.5px;
+}
+
+.features-slider-container {
+  width: 100%;
+  max-width: 1300px;
+  padding: 1rem;
+}
+
+.feature-card {
+  background: #0a0a0a;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(212, 175, 55, 0.6);
+}
+
+.feature-icon-placeholder {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.emoji-icon {
+  font-size: 4rem;
+  /* Apply a gold-like filter to the emojis to match the screenshot vibe */
+  filter: sepia(1) saturate(3) hue-rotate(15deg) brightness(1.2) contrast(1.2);
+  line-height: 1;
+}
+
+/* If the user drops in images later, this targets them */
+.feature-icon-placeholder img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.feature-title-text {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.feature-subtitle-text {
+  color: var(--accent-color); /* Gold color */
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .features-title {
+    font-size: 1.5rem;
+  }
+}

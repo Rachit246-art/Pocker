@@ -1,0 +1,133 @@
+.facilities-section {
+  padding: 8rem 0;
+  background-color: #030303;
+}
+
+.facilities-header {
+  text-align: center;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilities-subtitle {
+  color: var(--accent-color);
+  letter-spacing: 5px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.facilities-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.facilities-divider {
+  width: 60px;
+  height: 2px;
+  background-color: var(--accent-color);
+  margin-top: 1.5rem;
+}
+
+.facilities-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.facility-panel {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 500px;
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facility-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+  transition: background 0.5s ease;
+}
+
+.facility-panel:hover .facility-overlay {
+  background: rgba(0,0,0,0.6);
+}
+
+.facility-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  padding: 4rem 3rem;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  text-align: center;
+  max-width: 600px;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+}
+
+.facility-panel:hover .facility-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.facility-item-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.facility-item-desc {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.facility-btn {
+  background: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  padding: 0.8rem 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.facility-btn:hover {
+  background: var(--accent-color);
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .facility-panel {
+    background-attachment: scroll; /* Disable parallax on mobile for performance */
+    height: 50vh;
+  }
+  .facility-content {
+    opacity: 1; /* Always visible on mobile */
+    transform: translateY(0);
+    margin: 0 1.5rem;
+    padding: 2.5rem 1.5rem;
+  }
+}
