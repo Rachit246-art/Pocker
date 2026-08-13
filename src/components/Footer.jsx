@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -24,20 +25,20 @@ const Footer = () => {
         <div className="footer-col">
           <h4 className="footer-heading">THE CLUB</h4>
           <ul className="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">VIP Membership</a></li>
-            <li><a href="#">Private Suites</a></li>
-            <li><a href="#">Fine Dining</a></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/about">VIP Membership</Link></li>
+            <li><Link to="/facilities">Private Suites</Link></li>
+            <li><Link to="/facilities">Fine Dining</Link></li>
           </ul>
         </div>
         
         <div className="footer-col">
           <h4 className="footer-heading">GAMING</h4>
           <ul className="footer-links">
-            <li><a href="#">High Stakes Poker</a></li>
-            <li><a href="#">Tournaments</a></li>
-            <li><a href="#">Table Games</a></li>
-            <li><a href="#">House Rules</a></li>
+            <li><Link to="/facilities">High Stakes Poker</Link></li>
+            <li><Link to="/faq">Tournaments</Link></li>
+            <li><Link to="/gallery">Table Games</Link></li>
+            <li><Link to="/faq">House Rules</Link></li>
           </ul>
         </div>
         
@@ -54,10 +55,10 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Real Gaming Club. All rights reserved.</p>
-        <div className="footer-bottom-links">
-          <a href="#">Privacy Policy</a>
+        <div className="footer-legal">
+          <Link to="/faq">Privacy Policy</Link>
           <span className="separator">|</span>
-          <a href="#">Terms of Service</a>
+          <Link to="/faq">Terms of Service</Link>
         </div>
       </div>
     </footer>

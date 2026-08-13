@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PageHeader from '../components/PageHeader';
 import './AboutPage.css';
 
@@ -33,7 +34,7 @@ const AboutPage = () => {
                   <li>Priority tournament registration</li>
                   <li>Monthly member-only events</li>
                 </ul>
-                <button className="tier-btn">Apply Now</button>
+                <Link to="/contact" className="tier-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Apply Now</Link>
               </div>
               
               <div className="tier-card">
@@ -46,7 +47,7 @@ const AboutPage = () => {
                   <li>Private table booking</li>
                   <li>VIP helicopter transfer service</li>
                 </ul>
-                <button className="tier-btn">Inquire for Details</button>
+                <Link to="/contact" className="tier-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Inquire for Details</Link>
               </div>
             </div>
           </section>

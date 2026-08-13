@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './WhyChooseUs.css';
 
 const WhyChooseUs = () => {
@@ -47,7 +48,7 @@ const WhyChooseUs = () => {
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
              </div>
              <div className="wcu-wide-action">
-               <button className="wcu-btn">Contact Concierge</button>
+               <Link to="/contact" className="wcu-btn">Contact Concierge</Link>
              </div>
            </div>
         </div>

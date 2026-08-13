@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import ScrollToTop from './components/ScrollToTop';
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -16,6 +17,7 @@ import ContactPage from './pages/ContactPage';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>

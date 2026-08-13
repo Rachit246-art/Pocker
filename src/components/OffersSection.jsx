@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './OffersSection.css';
 
 const OffersSection = () => {
@@ -45,7 +46,7 @@ const OffersSection = () => {
               <span className="offer-number">0{offer.id}</span>
               <h3 className="offer-item-title">{offer.title}</h3>
               <p className="offer-item-desc">{offer.description}</p>
-              <button className="offer-btn">Learn More</button>
+              <Link to="/promotions" className="offer-btn">Learn More</Link>
             </div>
           </div>
         ))}
