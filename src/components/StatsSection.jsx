@@ -3,10 +3,10 @@ import './StatsSection.css';
 
 const StatsSection = () => {
   const stats = [
-    { id: 1, value: '10K+', label: 'Active Players', offset: '0px' },
-    { id: 2, value: '50+', label: 'Daily Tournaments', offset: '40px' },
-    { id: 3, value: '$5M+', label: 'Total Winnings', offset: '-20px' },
-    { id: 4, value: '10+', label: 'Years of Trust', offset: '20px' },
+    { id: 1, value: '10K+', label: 'Active Players', delay: '0.1s' },
+    { id: 2, value: '50+', label: 'Daily Tournaments', delay: '0.3s' },
+    { id: 3, value: '24/7', label: 'VIP Action', delay: '0.5s' },
+    { id: 4, value: '10+', label: 'Years of Trust', delay: '0.7s' },
   ];
 
   return (
@@ -23,7 +23,7 @@ const StatsSection = () => {
         <div className="stats-grid">
           {stats.map((stat, index) => (
             <React.Fragment key={stat.id}>
-              <div className="stat-card">
+              <div className="stat-card animate-slide-up" style={{ animationDelay: stat.delay }}>
                 <div className="stat-value">{stat.value}</div>
                 <div className="stat-label">{stat.label}</div>
               </div>

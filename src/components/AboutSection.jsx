@@ -31,7 +31,6 @@ const AboutSection = () => {
                <span className="about-stat-text">Premium Service</span>
              </div>
           </div>
-          <button className="about-btn">Discover Our History</button>
         </div>
       </div>
     </section>

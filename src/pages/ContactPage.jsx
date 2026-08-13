@@ -1,6 +1,5 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
-import FAQSection from '../components/FAQSection';
 import './ContactPage.css';
 
 const ContactPage = () => {
@@ -62,7 +61,6 @@ const ContactPage = () => {
           </div>
 
         </div>
-        <FAQSection />
       </div>
     </>
   );

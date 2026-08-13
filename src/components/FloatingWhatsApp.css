@@ -69,6 +69,14 @@
     bottom: 20px;
     right: 20px;
   }
+  .whatsapp-icon-container {
+    width: 45px;
+    height: 45px;
+  }
+  .whatsapp-icon {
+    width: 25px;
+    height: 25px;
+  }
   .whatsapp-tooltip {
     display: none;
   }
