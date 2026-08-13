@@ -36,3 +36,39 @@ a {
 ul {
   list-style: none;
 }
+
+/* --- Global Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 10px rgba(212, 175, 55, 0.2); }
+  50% { box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); }
+  100% { box-shadow: 0 0 10px rgba(212, 175, 55, 0.2); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Helper animation classes */
+.animate-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
