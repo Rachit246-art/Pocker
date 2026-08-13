@@ -1,0 +1,128 @@
+.contact-page-details {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  color: #e0e0e0;
+}
+
+.contact-layout {
+  display: flex;
+  gap: 4rem;
+  background: #080808;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 4rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+}
+
+.vip-concierge {
+  flex: 1;
+}
+
+.vip-concierge h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.vip-concierge p {
+  color: #aaa;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.concierge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  background: #111;
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fff;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 10px rgba(212,175,55,0.2);
+}
+
+.submit-btn {
+  background: var(--accent-color);
+  color: #000;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.location-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.location-item h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.location-item p {
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.location-map {
+  width: 100%;
+  height: 250px;
+  background: #1a1a1a;
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 992px) {
+  .contact-layout {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}

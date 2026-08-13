@@ -1,0 +1,65 @@
+.page-header {
+  width: 100%;
+  padding: 8rem 2rem 4rem;
+  background-color: #050505;
+  background-image: radial-gradient(circle at 50% -20%, rgba(212, 175, 55, 0.15), transparent 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.page-header-content {
+  max-width: 800px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(to bottom, #FFF1B9, #D4AF37);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.page-header-divider {
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, var(--accent-color), transparent);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 6rem 1.5rem 3rem;
+  }
+  .page-title {
+    font-size: 3rem;
+  }
+  .page-subtitle {
+    font-size: 1rem;
+  }
+}

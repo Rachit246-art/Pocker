@@ -1,39 +1,36 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import HeroSlider from './components/HeroSlider';
-import StatsSection from './components/StatsSection';
-import FeaturesSection from './components/FeaturesSection';
-import OffersSection from './components/OffersSection';
-import AboutSection from './components/AboutSection';
-import WhyChooseUs from './components/WhyChooseUs';
-import FacilitiesSection from './components/FacilitiesSection';
-import TournamentsSection from './components/TournamentsSection';
-import GallerySection from './components/GallerySection';
-import TestimonialsSection from './components/TestimonialsSection';
-import FAQSection from './components/FAQSection';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
+
+// Pages
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import PromotionsPage from './pages/PromotionsPage';
+import FacilitiesPage from './pages/FacilitiesPage';
+import FAQPage from './pages/FAQPage';
+import GalleryPage from './pages/GalleryPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
       <main>
-        <HeroSlider />
-        <StatsSection />
-        <FeaturesSection />
-        <OffersSection />
-        <AboutSection />
-        <WhyChooseUs />
-        <FacilitiesSection />
-        <TournamentsSection />
-        <GallerySection />
-        <TestimonialsSection />
-        <FAQSection />
-        <ContactSection />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/promotions" element={<PromotionsPage />} />
+          <Route path="/facilities" element={<FacilitiesPage />} />
+          <Route path="/faq" element={<FAQPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </main>
+      <FloatingWhatsApp />
       <Footer />
-    </>
+    </Router>
   );
 }
 
