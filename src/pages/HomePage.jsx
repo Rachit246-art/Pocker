@@ -9,6 +9,7 @@ import FacilitiesSection from '../components/FacilitiesSection';
 import FAQSection from '../components/FAQSection';
 import GallerySection from '../components/GallerySection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import ContactSection from '../components/ContactSection';
 
 const HomePage = () => {
   return (
@@ -50,11 +51,7 @@ const HomePage = () => {
 
       <TestimonialsSection />
 
-      <div style={{ padding: '4rem 0', backgroundColor: '#050505', textAlign: 'center' }}>
-        <h2 style={{ color: 'var(--accent-color)', letterSpacing: '4px', fontSize: '1rem', textTransform: 'uppercase', marginBottom: '1rem' }}>STAY CONNECTED</h2>
-        <h3 style={{ color: '#fff', fontSize: '2.5rem', marginBottom: '2rem' }}>READY TO JOIN THE ELITE?</h3>
-        <Link to="/contact" className="primary-btn">Contact Concierge</Link>
-      </div>
+      <ContactSection />
     </>
   );
 };

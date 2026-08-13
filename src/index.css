@@ -18,6 +18,8 @@
 
 body {
   margin: 0;
+  padding: 0;
+  padding-top: 115px; /* Offset for fixed navbar */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
