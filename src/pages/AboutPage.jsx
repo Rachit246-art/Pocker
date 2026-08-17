@@ -6,48 +6,39 @@ import './AboutPage.css';
 const AboutPage = () => {
   return (
     <>
-      <PageHeader title="About Us" subtitle="The Legacy of High Stakes" />
+      <PageHeader title="About Us" subtitle="Welcome to Royal Flush" />
       <div className="page-content animate-fade-in" style={{ animationDelay: '0.5s' }}>
         <div className="about-page-details">
           
           <section className="heritage-section">
             <div className="heritage-text">
-              <h2>A Tradition of <span>Excellence</span></h2>
-              <p>Founded in 2008, our Poker Club was established with a singular vision: to provide the ultimate luxury gaming experience for the world's most discerning players. We believe that poker is more than just a game; it is an art form, a battle of wits, and a social experience that deserves a setting of unparalleled elegance.</p>
-              <p>Every detail of our club, from the bespoke felt on our tables to the ambient lighting and premium concierge service, has been meticulously designed to ensure your time with us is nothing short of extraordinary.</p>
-              <p>Whether you are joining us for a casual evening in the lounge or a high-stakes showdown in the VIP room, you will experience the pinnacle of luxury gaming.</p>
+              <h2>About <span>Royal Flush</span></h2>
+              <p>Royal Flush offers a diverse range of games, including ₹5K and ₹10K ROE, ₹20K, ₹25K and ₹50K PLO5, along with higher-stakes action. Our location is convenient, with ample parking and a separate dining area where players can relax and enjoy their meals peacefully. We also provide instant cashouts and maintain strong player engagement through a professional yet friendly team, creating a comfortable overall experience.</p>
+              
+              <h2 style={{marginTop: '2rem'}}>Why Players Choose <span>Royal Flush</span></h2>
+              <p>Royal Flush stands out for its incredible player pool, exciting action, attractive bonuses, and friendly, welcoming environment. Our continuous engagement with players and strong relationships create a comfortable and memorable experience, encouraging players to extend their sessions and return regularly.</p>
+
+              <h2 style={{marginTop: '2rem'}}>Tables & <span>Future Plans</span></h2>
+              <p>Royal Flush currently focuses on maintaining a strong and consistent ₹5K and ₹10K ROE action, along with established ₹20K, ₹25K and ₹50K PLO5 tables and a sustained PLO5 quorum. Our next key focus is to build a strong and consistent Texas Hold’em quorum, Events and tournaments supported by attractive bonuses and regular player engagement to drive long-term participation and retention.</p>
             </div>
             <div className="heritage-image">
-              <img src="/about.png" alt="Club Interior" />
+              <img src="/about.png" alt="Royal Flush Interior" />
             </div>
           </section>
 
-          <section className="membership-tiers">
-            <h2>Membership Tiers</h2>
-            <div className="tier-cards">
+          <section className="membership-tiers" style={{marginTop: '4rem'}}>
+            <h2>Experience The Action</h2>
+            <div className="tier-cards" style={{justifyContent: 'center'}}>
               <div className="tier-card">
-                <h3>Gold Member</h3>
-                <div className="price">$5,000<span>/yr</span></div>
+                <h3>Join The Tables</h3>
+                <div className="price">₹5K - ₹50K+<span> Stakes</span></div>
                 <ul>
-                  <li>Access to main floor tables</li>
-                  <li>Complimentary premium beverages</li>
-                  <li>Priority tournament registration</li>
-                  <li>Monthly member-only events</li>
+                  <li>Exciting ROE & PLO5 Action</li>
+                  <li>Instant Cashouts</li>
+                  <li>Ample Parking & Dining Area</li>
+                  <li>Attractive Bonuses</li>
                 </ul>
-                <Link to="/contact" className="tier-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Apply Now</Link>
-              </div>
-              
-              <div className="tier-card">
-                <h3>Black Diamond</h3>
-                <div className="price">$25,000<span>/yr</span></div>
-                <ul>
-                  <li>Exclusive High Roller Room access</li>
-                  <li>24/7 Personal Concierge</li>
-                  <li>Complimentary fine dining</li>
-                  <li>Private table booking</li>
-                  <li>VIP helicopter transfer service</li>
-                </ul>
-                <Link to="/contact" className="tier-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Inquire for Details</Link>
+                <Link to="/contact" className="tier-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Contact Us Now</Link>
               </div>
             </div>
           </section>

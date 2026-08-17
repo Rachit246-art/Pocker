@@ -5,34 +5,34 @@ const TournamentsSection = () => {
   const tournaments = [
     {
       id: 1,
-      date: 'AUG 15',
-      time: '19:00 EST',
-      title: 'Summer High Roller Classic',
-      buyIn: '$5,000',
-      prize: '$250,000 GTD'
+      date: 'DAILY',
+      time: '24/7',
+      title: 'ROE Action & PLO5',
+      buyIn: '₹5K+',
+      prize: 'High Action'
     },
     {
       id: 2,
-      date: 'AUG 22',
-      time: '20:00 EST',
-      title: 'Weekly Deepstack Bounty',
-      buyIn: '$1,000',
-      prize: '$50,000 GTD'
+      date: 'WEEKENDS',
+      time: 'Evening',
+      title: 'High-Stakes PLO5',
+      buyIn: '₹50K',
+      prize: 'Massive Pots'
     },
     {
       id: 3,
-      date: 'SEP 01',
-      time: '14:00 EST',
-      title: 'The Platinum Main Event',
-      buyIn: '$10,000',
-      prize: '$1,000,000 GTD'
+      date: 'COMING SOON',
+      time: 'TBA',
+      title: 'Texas Hold’em Championship',
+      buyIn: 'TBA',
+      prize: 'Attractive Bonuses'
     }
   ];
 
   return (
     <section className="tournaments-section" id="tournaments">
       <div className="tournaments-header">
-        <h4 className="tournaments-subtitle">LOREM IPSUM</h4>
+        <h4 className="tournaments-subtitle">THE ACTION</h4>
         <h2 className="tournaments-title">UPCOMING <span className="gold-text">TOURNAMENTS</span></h2>
         <div className="tournaments-divider"></div>
       </div>

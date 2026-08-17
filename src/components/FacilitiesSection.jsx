@@ -6,14 +6,14 @@ const FacilitiesSection = () => {
   const facilities = [
     {
       id: 1,
-      title: 'Fine Dining',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+      title: 'Separate Dining',
+      description: 'Relax away from the tables and enjoy your meals peacefully in our dedicated dining area.',
       image: '/facility1.png'
     },
     {
       id: 2,
-      title: 'Private Suites',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+      title: 'Ample Parking',
+      description: 'Extremely convenient location offering ample parking for a stress-free visit.',
       image: '/facility2.png'
     }
   ];
@@ -21,8 +21,8 @@ const FacilitiesSection = () => {
   return (
     <section className="facilities-section" id="facilities">
       <div className="facilities-header">
-        <h4 className="facilities-subtitle">LOREM IPSUM</h4>
-        <h2 className="facilities-title">WORLD-CLASS FACILITIES</h2>
+        <h4 className="facilities-subtitle">AMENITIES</h4>
+        <h2 className="facilities-title">COMFORT & CONVENIENCE</h2>
         <div className="facilities-divider"></div>
       </div>
       

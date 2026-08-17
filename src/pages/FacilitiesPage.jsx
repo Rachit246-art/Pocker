@@ -12,50 +12,50 @@ const FacilitiesPage = () => {
           <div className="facility-showcase">
             <div className="facility-row">
               <div className="facility-text">
-                <h2>The Main <span>Floor</span></h2>
-                <p>Step into an atmosphere of high-energy gaming on our expansive main floor. Featuring 20 state-of-the-art poker tables outfitted with premium speed cloth and ergonomic seating, the main floor is the beating heart of our club.</p>
-                <p>Every table is serviced by our professional, internationally trained dealers to ensure a seamless and fair game.</p>
+                <h2>The <span>Tables</span></h2>
+                <p>Experience the excitement of our diverse game offerings on the main floor. We currently focus on maintaining strong and consistent ₹5K and ₹10K ROE action, along with a sustained PLO5 quorum.</p>
+                <p>Enjoy our incredible player pool and exciting action in a friendly and welcoming environment where you can extend your sessions comfortably.</p>
                 <ul className="facility-features">
-                  <li>20 Custom-built Poker Tables</li>
-                  <li>RFID Chip Tracking Technology</li>
-                  <li>Tableside Food & Beverage Service</li>
-                  <li>High-Definition Sporting Screens</li>
+                  <li>₹5K and ₹10K ROE Tables</li>
+                  <li>Comfortable, Ergonomic Seating</li>
+                  <li>Professional & Friendly Team</li>
+                  <li>Instant Cashout Desk</li>
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/about.png" alt="Main Floor" />
+                <img src="/tables_main_floor.jpg" alt="Main Tables" />
               </div>
             </div>
 
             <div className="facility-row reverse">
               <div className="facility-text">
-                <h2>The High Roller <span>Room</span></h2>
-                <p>Reserved for our Black Diamond members and high-stakes cash games, the High Roller Room offers ultimate privacy and bespoke service. Tucked away behind frosted glass doors, this soundproofed sanctuary provides the ultimate environment for serious players.</p>
+                <h2>High-Stakes <span>PLO5</span></h2>
+                <p>For those seeking higher stakes, Royal Flush offers established ₹20K, ₹25K, and ₹50K PLO5 tables. Engage in intense action with strong player pools while enjoying premium service.</p>
                 <ul className="facility-features">
-                  <li>Private Entrance and Restrooms</li>
-                  <li>Dedicated Dedicated Concierge and Chef</li>
-                  <li>No-Limit Action with Bespoke Stakes</li>
-                  <li>Luxurious Leather Seating</li>
+                  <li>₹20K, ₹25K, and ₹50K PLO5</li>
+                  <li>Exciting High-Stakes Action</li>
+                  <li>Dedicated Support</li>
+                  <li>Attractive Bonuses</li>
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/about.png" alt="High Roller Room" />
+                <img src="/high_stakes_plo5.jpg" alt="High Stakes PLO5" />
               </div>
             </div>
 
             <div className="facility-row">
               <div className="facility-text">
-                <h2>The <span>Lounge & Bar</span></h2>
-                <p>Take a break from the action in our luxurious lounge. Featuring a fully stocked bar with rare single-malt scotches, craft cocktails, and a curated cigar humidor, it is the perfect place to celebrate a win or commiserate a bad beat.</p>
+                <h2>Dining & <span>Convenience</span></h2>
+                <p>We believe in creating a comfortable overall experience. Our location is extremely convenient, featuring ample parking for all players. Step away from the tables and relax in our separate dining area.</p>
                 <ul className="facility-features">
-                  <li>Premium Spirits & Handcrafted Cocktails</li>
-                  <li>Walk-in Cigar Humidor</li>
-                  <li>Live Jazz on Weekends</li>
-                  <li>Gourmet Dining Menu</li>
+                  <li>Separate Dining Area</li>
+                  <li>Peaceful Environment</li>
+                  <li>Ample Parking Facilities</li>
+                  <li>Strong Player Relationships</li>
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/about.png" alt="Lounge & Bar" />
+                <img src="/dining_convenience.jpg" alt="Dining & Convenience" />
               </div>
             </div>
           </div>

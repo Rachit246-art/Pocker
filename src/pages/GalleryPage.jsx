@@ -4,34 +4,34 @@ import './GalleryPage.css';
 
 const galleryData = [
   {
-    src: "/about.png",
-    title: "The Final Table",
-    desc: "Intense action during the Diamond Classic"
+    src: "/gallery1.png",
+    title: "ROE Action",
+    desc: "Intense ₹5K & ₹10K ROE games"
+  },
+  {
+    src: "/offer1.png",
+    title: "High-Stakes PLO5",
+    desc: "Established ₹50K PLO5 tables"
   },
   {
     src: "/about.png",
-    title: "Premium Chips",
-    desc: "Our bespoke ceramic chips"
+    title: "Dining & Convenience",
+    desc: "Separate dining area for a peaceful break"
   },
   {
-    src: "/about.png",
-    title: "The Lounge",
-    desc: "Exclusive drinks and cigars"
+    src: "/gallery3.png",
+    title: "Incredible Player Pool",
+    desc: "Strong engagement and relationships"
   },
   {
-    src: "/about.png",
-    title: "Main Floor Action",
-    desc: "20 tables running 24/7"
+    src: "/gallery2.png",
+    title: "Tournaments",
+    desc: "Upcoming Texas Hold'em events"
   },
   {
-    src: "/about.png",
-    title: "Victory",
-    desc: "A new champion is crowned"
-  },
-  {
-    src: "/about.png",
-    title: "Professional Dealers",
-    desc: "Internationally trained staff"
+    src: "/offer2.png",
+    title: "Professional Team",
+    desc: "Friendly staff ensuring instant cashouts"
   }
 ];
 

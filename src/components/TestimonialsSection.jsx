@@ -9,26 +9,31 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      title: "Incredible Player Pool",
+      quote: "Royal Flush stands out for its incredible player pool and exciting action. The atmosphere is always friendly and welcoming.",
       author: "Marcus T.",
-      title: "VIP Member since 2018"
     },
     {
       id: 2,
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      title: "Instant Cashouts",
+      quote: "The professional yet friendly team makes every session comfortable. Plus, the instant cashouts are a huge bonus.",
       author: "Elena R.",
-      title: "Professional Player"
     },
     {
       id: 3,
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      title: "Great Stakes",
+      quote: "The ₹50K PLO5 games here are fantastic. I also love that there is ample parking and a separate dining area to relax.",
       author: "James W.",
-      title: "Tournament Champion"
     }
   ];
 
   return (
     <section className="testimonials-section">
+      <div className="testimonials-header">
+        <h4 className="testimonials-subtitle">WHAT PLAYERS SAY</h4>
+        <h2 className="testimonials-title">TESTIMONIALS</h2>
+        <div className="testimonials-divider"></div>
+      </div>
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000, disableOnInteraction: false }}

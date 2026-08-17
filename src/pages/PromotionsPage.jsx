@@ -12,9 +12,9 @@ const PromotionsPage = () => {
           
           <div className="featured-promo">
             <div className="featured-promo-text">
-              <span className="featured-badge">Limited Time Offer</span>
-              <h2>The Million Dollar <span>Freeroll</span></h2>
-              <p>For a limited time, players who log 100 hours of cash game action in our main floor or VIP rooms will earn a seat to our exclusive Million Dollar Freeroll event. No buy-in, pure profit, and the ultimate bragging rights.</p>
+              <span className="featured-badge">Upcoming Feature</span>
+              <h2>Texas Hold'em <span>Events</span></h2>
+              <p>Our next key focus is to build a strong and consistent Texas Hold’em quorum. Get ready for exciting events and tournaments supported by attractive bonuses designed to drive long-term participation and retention.</p>
               <Link to="/contact" className="promo-btn" style={{alignSelf: 'flex-start', display: 'inline-block'}}>Opt In Now</Link>
             </div>
             <div className="featured-promo-image">
@@ -25,33 +25,33 @@ const PromotionsPage = () => {
           <div className="promo-grid">
             <div className="promo-card">
               <div className="promo-icon">🎁</div>
-              <h3 className="promo-title">Welcome Bonus</h3>
-              <p className="promo-desc">Join the club today and receive a luxurious matched bonus on your first deposit, along with complimentary access to the lounge.</p>
-              <div className="promo-value">100% Match</div>
+              <h3 className="promo-title">Attractive Bonuses</h3>
+              <p className="promo-desc">Royal Flush stands out for its attractive bonuses. Join the action at our ROE or PLO5 tables to start earning today.</p>
+              <div className="promo-value">Instant Rewards</div>
               <Link to="/contact" className="promo-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Claim Offer</Link>
             </div>
 
             <div className="promo-card" style={{ animationDelay: '0.2s' }}>
-              <div className="promo-icon">💎</div>
-              <h3 className="promo-title">High Roller Reload</h3>
-              <p className="promo-desc">For our Black Diamond members. Enjoy a massive reload bonus every weekend, deposited directly into your club account.</p>
-              <div className="promo-value">Up to $5K</div>
-              <Link to="/contact" className="promo-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Claim Offer</Link>
+              <div className="promo-icon">🤝</div>
+              <h3 className="promo-title">Player Engagement</h3>
+              <p className="promo-desc">Our continuous engagement with players and strong relationships create a comfortable and memorable experience for everyone.</p>
+              <div className="promo-value">VIP Treatment</div>
+              <Link to="/contact" className="promo-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Learn More</Link>
             </div>
 
             <div className="promo-card" style={{ animationDelay: '0.4s' }}>
-              <div className="promo-icon">🏎️</div>
-              <h3 className="promo-title">The Grand Giveaway</h3>
-              <p className="promo-desc">Earn raffle tickets for every hour played at cash tables. At the end of the month, one lucky member drives away in a luxury sports car.</p>
-              <div className="promo-value">Win a Porsche</div>
-              <Link to="/contact" className="promo-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Learn More</Link>
+              <div className="promo-icon">💸</div>
+              <h3 className="promo-title">Instant Cashouts</h3>
+              <p className="promo-desc">We respect your time and winnings. Enjoy seamless, instant cashouts from our professional yet friendly team.</p>
+              <div className="promo-value">Zero Delay</div>
+              <Link to="/contact" className="promo-btn" style={{ display: 'block', boxSizing: 'border-box' }}>Play Now</Link>
             </div>
           </div>
 
           <div className="vip-promo-section">
-            <h2>Invitation Only</h2>
-            <p>Our most exclusive promotions, private cash game invites, and high-stakes tournament entries are reserved for our Black Diamond and Platinum tier members. Discretion and unparalleled luxury await.</p>
-            <Link to="/contact" className="promo-btn">Inquire with Concierge</Link>
+            <h2>Extend Your Sessions</h2>
+            <p>At Royal Flush, we encourage players to extend their sessions and return regularly by offering a welcoming environment, dedicated dining area, and ample parking to ensure peace of mind.</p>
+            <Link to="/contact" className="promo-btn">Join The Action</Link>
           </div>
 
         </div>

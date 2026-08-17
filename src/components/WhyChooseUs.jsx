@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
   return (
     <section className="wcu-section">
       <div className="wcu-header">
-        <h4 className="wcu-subtitle">LOREM IPSUM</h4>
+        <h4 className="wcu-subtitle">ROYAL FLUSH</h4>
         <h2 className="wcu-title">WHY CHOOSE US</h2>
         <div className="wcu-divider"></div>
       </div>
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
           <div className="wcu-card-content">
             <div className="wcu-icon">🛡️</div>
             <h3>Uncompromising Security</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>We ensure a secure and friendly environment for all our players, creating a comfortable and memorable experience.</p>
           </div>
         </div>
         
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
           <div className="wcu-card-content">
             <div className="wcu-icon">💎</div>
             <h3>Exclusive Rewards</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Enjoy attractive bonuses, regular promotions, and exceptional player engagement designed to extend your sessions.</p>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
           <div className="wcu-card-content">
             <div className="wcu-icon">⚡</div>
             <h3>Instant Payouts</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>We respect your winnings and offer instant cashouts managed by our professional and welcoming team.</p>
           </div>
         </div>
         
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
            <div className="wcu-card-content horizontal">
              <div className="wcu-wide-text">
                <h3>World-Class Customer Support</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <p>Our continuous engagement with players and strong relationships ensure you always receive VIP treatment and dedicated support.</p>
              </div>
              <div className="wcu-wide-action">
                <Link to="/contact" className="wcu-btn">Contact Concierge</Link>

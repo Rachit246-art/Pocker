@@ -5,6 +5,7 @@ import StatsSection from '../components/StatsSection';
 import FeaturesSection from '../components/FeaturesSection';
 import OffersSection from '../components/OffersSection';
 import AboutSection from '../components/AboutSection';
+import WhyChooseUs from '../components/WhyChooseUs';
 import FacilitiesSection from '../components/FacilitiesSection';
 import FAQSection from '../components/FAQSection';
 import GallerySection from '../components/GallerySection';
@@ -23,6 +24,8 @@ const HomePage = () => {
           <Link to="/about" className="primary-btn">Discover Our Full Story</Link>
         </div>
       </div>
+
+      <WhyChooseUs />
 
       <FeaturesSection />
       

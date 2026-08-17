@@ -11,8 +11,8 @@ const ContactPage = () => {
           
           <div className="contact-layout">
             <div className="vip-concierge">
-              <h2>VIP Concierge</h2>
-              <p>For table reservations, private event bookings, and Black Diamond membership inquiries, please use our secure concierge form.</p>
+              <h2>Player Support</h2>
+              <p>For table reservations, event inquiries, or any other questions, our professional and friendly team is here to help.</p>
               
               <form className="concierge-form">
                 <div className="form-group">
@@ -26,9 +26,8 @@ const ContactPage = () => {
                 <div className="form-group">
                   <label>Inquiry Type</label>
                   <select>
-                    <option>Table Reservation</option>
-                    <option>Private Event</option>
-                    <option>Membership Application</option>
+                    <option>Table Reservation (ROE / PLO5)</option>
+                    <option>Future Events & Tournaments</option>
                     <option>General Inquiry</option>
                   </select>
                 </div>
@@ -43,15 +42,15 @@ const ContactPage = () => {
             <div className="location-details">
               <div className="location-item">
                 <h3>Location & Transport</h3>
-                <p><strong>The Royal Flush Tower</strong></p>
-                <p>123 High Roller Avenue<br/>Las Vegas, NV 89109</p>
-                <p><em>*Valet parking is complimentary for all members. Helipad access requires 24hr notice.</em></p>
+                <p><strong>Royal Flush</strong></p>
+                <p>Conveniently located with ample parking available.</p>
+                <p><em>*We provide a separate dining area for players to relax and enjoy meals peacefully.</em></p>
               </div>
 
               <div className="location-item">
                 <h3>Direct Contact</h3>
-                <p><strong>Concierge Desk:</strong> +1 (800) 555-P0KR</p>
-                <p><strong>Email:</strong> vip@luxepokerclub.com</p>
+                <p><strong>Support Team:</strong> +91 (800) 555-FLUSH</p>
+                <p><strong>Email:</strong> support@royalflush.com</p>
               </div>
 
               <div className="location-map">

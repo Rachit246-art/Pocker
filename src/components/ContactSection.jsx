@@ -7,28 +7,28 @@ const ContactSection = () => {
       <div className="contact-container">
         
         <div className="contact-info-column">
-          <h4 className="contact-subtitle">LOREM IPSUM</h4>
+          <h4 className="contact-subtitle">CONTACT US</h4>
           <h2 className="contact-title">RESERVE YOUR <span className="gold-text">SEAT</span></h2>
           <div className="contact-divider"></div>
           
           <p className="contact-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Join our incredible player pool and engage in exciting action. Reach out to reserve your seat at our ROE or PLO5 tables.
           </p>
 
           <div className="contact-details">
             <div className="contact-detail-item">
               <span className="contact-icon">📍</span>
               <div className="contact-text">
-                <strong>The Grand Casino Royale</strong>
-                <span>100 Luxury Avenue, VIP District<br/>Las Vegas, NV 89109</span>
+                <strong>Royal Flush</strong>
+                <span>Conveniently located with ample parking available.</span>
               </div>
             </div>
             
             <div className="contact-detail-item">
               <span className="contact-icon">📞</span>
               <div className="contact-text">
-                <strong>Concierge Desk</strong>
-                <span>+1 (800) 555-CLUB</span>
+                <strong>Support Team</strong>
+                <span>+91 (800) 555-FLUSH</span>
               </div>
             </div>
             
@@ -36,7 +36,7 @@ const ContactSection = () => {
               <span className="contact-icon">✉️</span>
               <div className="contact-text">
                 <strong>Direct Email</strong>
-                <span>vip@realgamingclub.luxury</span>
+                <span>support@royalflush.com</span>
               </div>
             </div>
           </div>
@@ -61,9 +61,8 @@ const ContactSection = () => {
               <div className="form-group">
                 <label>Inquiry Type</label>
                 <select>
-                  <option>VIP Membership</option>
-                  <option>Private Suite Booking</option>
-                  <option>Tournament Registration</option>
+                  <option>Table Reservation (ROE / PLO5)</option>
+                  <option>Future Events & Tournaments</option>
                   <option>General Inquiry</option>
                 </select>
               </div>

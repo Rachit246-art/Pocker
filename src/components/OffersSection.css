@@ -167,3 +167,28 @@
     width: 100%;
   }
 }
+
+.offer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.offer-table th,
+.offer-table td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.offer-table th {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.offer-table td {
+  color: #ccc;
+}

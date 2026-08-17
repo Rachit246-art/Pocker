@@ -6,20 +6,20 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What are the requirements to become a VIP member?",
-      answer: "VIP membership is currently strictly by invitation only or through our exclusive application process. Prospective members must demonstrate a history of high-stakes play and pass a background check to ensure the integrity of our club."
+      question: "What games are currently available?",
+      answer: "We offer a diverse range of games, including ₹5K and ₹10K ROE, as well as higher stakes action with ₹20K, ₹25K and ₹50K PLO5 tables."
     },
     {
-      question: "Are the tournaments open to the public?",
-      answer: "While our daily cash games are reserved for members, select weekly and monthly grand tournaments are open to the public via a direct buy-in, subject to availability."
+      question: "Are there any future tournaments planned?",
+      answer: "Yes! Our next key focus is to build a strong and consistent Texas Hold’em quorum. We are planning exciting events and tournaments supported by attractive bonuses."
     },
     {
-      question: "What is the dress code?",
-      answer: "We enforce a strict smart elegant dress code. Gentlemen are required to wear collared shirts and closed shoes. Athletic wear, shorts, and flip-flops are strictly prohibited on the casino floor."
+      question: "What amenities do you offer?",
+      answer: "We ensure a comfortable and memorable experience with a separate dining area to relax and enjoy meals peacefully, along with ample parking for your convenience."
     },
     {
       question: "How fast are the cashouts processed?",
-      answer: "We pride ourselves on instant liquidity. Cash, wire transfers, and select cryptocurrency cashouts are processed immediately upon request by our cage staff, 24/7."
+      answer: "We respect your winnings and provide instant cashouts managed by our professional yet friendly team."
     }
   ];
 
@@ -30,7 +30,7 @@ const FAQSection = () => {
   return (
     <section className="faq-section">
       <div className="faq-header">
-        <h4 className="faq-subtitle">LOREM IPSUM</h4>
+        <h4 className="faq-subtitle">GET ANSWERS</h4>
         <h2 className="faq-title">FREQUENTLY ASKED <span className="gold-text">QUESTIONS</span></h2>
         <div className="faq-divider"></div>
       </div>
