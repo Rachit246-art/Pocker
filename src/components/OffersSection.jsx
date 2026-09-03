@@ -13,19 +13,19 @@ const OffersSection = () => {
         { game: 'PLO5', stakes: '₹20K & ₹25K' },
         { game: 'High-Stakes PLO5', stakes: '₹50K' }
       ],
-      image: '/offer1.png',
+      image: '/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png',
       reverse: false
     },
     {
       id: 2,
-      title: 'Attractive Bonuses',
-      description: 'Enjoy attractive bonuses, instant cashouts, and a comfortable, welcoming environment with strong player engagement and regular events.',
-      image: '/offer2.png',
+      title: 'VIP Ambience',
+      description: 'Enjoy a professional, comfortable setting with our friendly team. We maintain strong player engagement to ensure you have a premium experience every time.',
+      image: '/Real images/ChatGPT Image Sep 3, 2026, 11_25_23 AM.png',
       reverse: true
     },
     {
       id: 3,
-      title: 'Inbuilt Cafe',
+      title: 'Dining & Cafe',
       description: 'Take a break from the action and relax in our inbuilt cafe. We provide a separate dining area for players to enjoy their meals peacefully without leaving the comfort of the club.',
       image: '/offer3_cafe.jpg',
       reverse: false

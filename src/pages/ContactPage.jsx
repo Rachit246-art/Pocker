@@ -54,7 +54,12 @@ const ContactPage = () => {
               </div>
 
               <div className="location-map">
-                [ Interactive Map ]
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.89725838575!2d73.81804241531742!3d15.48995328921102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc0a2e0a297e5%3A0xc3f6050b4dcff4be!2sGoa!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                  title="Royal Flush Location"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

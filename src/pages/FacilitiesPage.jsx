@@ -23,7 +23,7 @@ const FacilitiesPage = () => {
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/tables_main_floor.jpg" alt="Main Tables" />
+                <img src="/Real images/ChatGPT Image Sep 3, 2026, 11_29_52 AM.png" alt="Main Tables" />
               </div>
             </div>
 
@@ -39,7 +39,7 @@ const FacilitiesPage = () => {
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/high_stakes_plo5.jpg" alt="High Stakes PLO5" />
+                <img src="/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png" alt="High Stakes PLO5" />
               </div>
             </div>
 

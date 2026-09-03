@@ -4,32 +4,32 @@ import './GalleryPage.css';
 
 const galleryData = [
   {
-    src: "/gallery1.png",
+    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png",
     title: "ROE Action",
     desc: "Intense ₹5K & ₹10K ROE games"
   },
   {
-    src: "/offer1.png",
+    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_21_58 AM.png",
     title: "High-Stakes PLO5",
     desc: "Established ₹50K PLO5 tables"
   },
   {
-    src: "/about.png",
+    src: "/dining_convenience.jpg",
     title: "Dining & Convenience",
     desc: "Separate dining area for a peaceful break"
   },
   {
-    src: "/gallery3.png",
+    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_31_30 AM.png",
     title: "Incredible Player Pool",
     desc: "Strong engagement and relationships"
   },
   {
-    src: "/gallery2.png",
+    src: "/Real images/IMG_2949.jpg",
     title: "Tournaments",
     desc: "Upcoming Texas Hold'em events"
   },
   {
-    src: "/offer2.png",
+    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_16_20 AM.png",
     title: "Professional Team",
     desc: "Friendly staff ensuring instant cashouts"
   }

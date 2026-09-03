@@ -22,7 +22,7 @@ const AboutPage = () => {
               <p>Royal Flush currently focuses on maintaining a strong and consistent ₹5K and ₹10K ROE action, along with established ₹20K, ₹25K and ₹50K PLO5 tables and a sustained PLO5 quorum. Our next key focus is to build a strong and consistent Texas Hold’em quorum, Events and tournaments supported by attractive bonuses and regular player engagement to drive long-term participation and retention.</p>
             </div>
             <div className="heritage-image">
-              <img src="/about.png" alt="Royal Flush Interior" />
+              <img src="/Real images/ChatGPT Image Sep 3, 2026, 11_23_24 AM.png" alt="Royal Flush Interior" />
             </div>
           </section>
 

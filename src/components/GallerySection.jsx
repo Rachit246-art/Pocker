@@ -3,12 +3,12 @@ import './GallerySection.css';
 
 const GallerySection = () => {
   const photos = [
-    { id: 1, src: '/gallery1.png', alt: 'Professional Dealer', className: 'gallery-tall' },
-    { id: 4, src: '/offer1.png', alt: 'High Stakes Table', className: 'gallery-large' },
-    { id: 3, src: '/about.png', alt: 'Club Entrance', className: '' },
-    { id: 5, src: '/gallery3.png', alt: 'Premium Cocktails', className: '' },
-    { id: 2, src: '/gallery2.png', alt: 'Luxury Chips', className: 'gallery-wide' },
-    { id: 6, src: '/offer2.png', alt: 'VIP Lounge', className: 'gallery-wide' }
+    { id: 1, src: '/Real images/IMG_2949.jpg', alt: 'Professional Dealer', className: 'gallery-tall' },
+    { id: 4, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_21_58 AM.png', alt: 'High Stakes Table', className: 'gallery-large' },
+    { id: 3, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png', alt: 'Table Action', className: 'gallery-wide' },
+    { id: 2, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_18_06 AM.png', alt: 'Luxury Chips', className: 'gallery-tall' },
+    { id: 5, src: '/offer3_cafe.jpg', alt: 'Premium Cocktails', className: '' },
+    { id: 6, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_16_20 AM.png', alt: 'Cards Action', className: '' }
   ];
 
   return (
