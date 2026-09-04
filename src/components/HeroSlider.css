@@ -133,11 +133,12 @@
 
 @media (max-width: 992px) {
   .hero-slider-container {
-    height: 60vh !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
   }
   .slide-image {
-    object-fit: contain !important;
-    background-color: #050505 !important;
+    object-fit: cover !important;
+    background-color: transparent !important;
   }
   .css-banner-overlay { padding: 3rem 4rem; }
   .css-banner-title { font-size: 4rem; }
@@ -146,11 +147,12 @@
 
 @media (max-width: 768px) {
   .hero-slider-container {
-    height: 50vh !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
   }
   .slide-image {
-    object-fit: contain !important;
-    background-color: #050505 !important;
+    object-fit: cover !important;
+    background-color: transparent !important;
   }
   .css-banner-overlay { padding: 2rem; width: 90%; }
   .css-banner-title { font-size: 2.5rem; }

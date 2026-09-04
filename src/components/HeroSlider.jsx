@@ -11,11 +11,11 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      image: '/Banner 1.png'
+      image: '/Real images/Banner1.png'
     },
     {
       id: 2,
-      image: '/text-banner-2.png'
+      image: '/Real images/Banner2.png'
     }
   ];
 

@@ -4,7 +4,7 @@ import './GalleryPage.css';
 
 const galleryData = [
   {
-    src: "/Real images/premium_poker_game.jpg",
+    src: "/Real images/ChatGPT Image Sep 4, 2026, 04_23_59 PM.png",
     title: "ROE Action",
     desc: "Intense ₹5K & ₹10K ROE games"
   },

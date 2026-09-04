@@ -13,14 +13,14 @@ const OffersSection = () => {
         { game: 'PLO5', stakes: '₹20K & ₹25K' },
         { game: 'High-Stakes PLO5', stakes: '₹50K' }
       ],
-      image: '/Real images/premium_poker_game.jpg',
+      image: '/Real images/ChatGPT Image Sep 4, 2026, 04_23_59 PM.png',
       reverse: false
     },
     {
       id: 2,
       title: 'VIP Ambience',
       description: 'Enjoy a professional, comfortable setting with our friendly team. We maintain strong player engagement to ensure you have a premium experience every time.',
-      image: '/Real images/ChatGPT Image Sep 3, 2026, 11_25_23 AM.png',
+      image: '/Real images/ChatGPT Image Sep 4, 2026, 04_24_35 PM.png',
       reverse: true
     },
     {

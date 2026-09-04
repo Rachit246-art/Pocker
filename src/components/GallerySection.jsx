@@ -5,7 +5,7 @@ const GallerySection = () => {
   const photos = [
     { id: 1, src: '/Real images/IMG_2949.jpg', alt: 'Professional Dealer', className: 'gallery-tall' },
     { id: 4, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_21_58 AM.png', alt: 'High Stakes Table', className: 'gallery-large' },
-    { id: 3, src: '/Real images/premium_poker_game.jpg', alt: 'Table Action', className: 'gallery-wide' },
+    { id: 3, src: '/Real images/ChatGPT Image Sep 4, 2026, 04_24_35 PM.png', alt: 'Table Action', className: 'gallery-wide' },
     { id: 2, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_18_06 AM.png', alt: 'Luxury Chips', className: 'gallery-tall' },
     { id: 5, src: '/offer3_cafe.jpg', alt: 'Premium Cocktails', className: '' },
     { id: 6, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_16_20 AM.png', alt: 'Cards Action', className: '' }
