@@ -39,7 +39,7 @@ const FacilitiesPage = () => {
                 </ul>
               </div>
               <div className="facility-image">
-                <img src="/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png" alt="High Stakes PLO5" />
+                <img src="/Real images/premium_poker_game.jpg" alt="High Stakes PLO5" />
               </div>
             </div>
 

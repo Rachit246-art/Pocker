@@ -19,8 +19,8 @@ const ContactSection = () => {
             <div className="contact-detail-item">
               <span className="contact-icon">📍</span>
               <div className="contact-text">
-                <strong>Royal Flush</strong>
-                <span>Conveniently located with ample parking available.</span>
+                <strong>New Royal Flush Poker Room,</strong>
+                <span>Gold Tower, Near Konark Hotel</span>
               </div>
             </div>
             
@@ -28,7 +28,7 @@ const ContactSection = () => {
               <span className="contact-icon">📞</span>
               <div className="contact-text">
                 <strong>Support Team</strong>
-                <span>+91 (800) 555-FLUSH</span>
+                <span>+91 870 006 6132</span>
               </div>
             </div>
             
@@ -36,7 +36,7 @@ const ContactSection = () => {
               <span className="contact-icon">✉️</span>
               <div className="contact-text">
                 <strong>Direct Email</strong>
-                <span>support@royalflush.com</span>
+                <span>royalflushpokerroom2@gmail.com</span>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ const OffersSection = () => {
         { game: 'PLO5', stakes: '₹20K & ₹25K' },
         { game: 'High-Stakes PLO5', stakes: '₹50K' }
       ],
-      image: '/Real images/ChatGPT Image Sep 3, 2026, 11_09_18 AM.png',
+      image: '/Real images/premium_poker_game.jpg',
       reverse: false
     },
     {

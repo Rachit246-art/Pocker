@@ -42,15 +42,15 @@ const ContactPage = () => {
             <div className="location-details">
               <div className="location-item">
                 <h3>Location & Transport</h3>
-                <p><strong>Royal Flush</strong></p>
-                <p>Conveniently located with ample parking available.</p>
+                <p><strong>New Royal Flush Poker Room,</strong></p>
+                <p>Gold Tower, Near Konark Hotel</p>
                 <p><em>*We provide a separate dining area for players to relax and enjoy meals peacefully.</em></p>
               </div>
 
               <div className="location-item">
                 <h3>Direct Contact</h3>
-                <p><strong>Support Team:</strong> +91 (800) 555-FLUSH</p>
-                <p><strong>Email:</strong> support@royalflush.com</p>
+                <p><strong>Support Team:</strong> +91 870 006 6132</p>
+                <p><strong>Email:</strong> royalflushpokerroom2@gmail.com</p>
               </div>
 
               <div className="location-map">
