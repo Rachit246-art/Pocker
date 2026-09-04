@@ -3,12 +3,16 @@ import './GallerySection.css';
 
 const GallerySection = () => {
   const photos = [
-    { id: 1, src: '/Real images/IMG_2949.jpg', alt: 'Professional Dealer', className: 'gallery-tall' },
-    { id: 4, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_21_58 AM.png', alt: 'High Stakes Table', className: 'gallery-large' },
-    { id: 3, src: '/Real images/ChatGPT Image Sep 4, 2026, 04_24_35 PM.png', alt: 'Table Action', className: 'gallery-wide' },
-    { id: 2, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_18_06 AM.png', alt: 'Luxury Chips', className: 'gallery-tall' },
-    { id: 5, src: '/offer3_cafe.jpg', alt: 'Premium Cocktails', className: '' },
-    { id: 6, src: '/Real images/ChatGPT Image Sep 3, 2026, 11_16_20 AM.png', alt: 'Cards Action', className: '' }
+    { id: 1, src: '/Gallery section/IMG_2993.JPG', alt: 'Action at the Tables', className: 'gallery-tall' },
+    { id: 2, src: '/Gallery section/IMG_3012.JPG', alt: 'High Stakes Table', className: 'gallery-large' },
+    { id: 3, src: '/Gallery section/IMG_3031.JPG', alt: 'Vibrant Atmosphere', className: 'gallery-wide' },
+    { id: 4, src: '/Gallery section/IMG_3034.JPG', alt: 'Incredible Player Pool', className: 'gallery-tall' },
+    { id: 5, src: '/Gallery section/IMG_3036.JPG', alt: 'Tournaments', className: '' },
+    { id: 6, src: '/Gallery section/IMG_3080.JPG', alt: 'Professional Environment', className: '' },
+    { id: 7, src: '/Gallery section/Screenshot 2026-09-04 164706.png', alt: 'Gallery Image 7', className: 'gallery-large' },
+    { id: 8, src: '/Gallery section/Screenshot 2026-09-04 165111.png', alt: 'Gallery Image 8', className: 'gallery-wide' },
+    { id: 9, src: '/Gallery section/Screenshot 2026-09-04 165632.png', alt: 'Gallery Image 9', className: 'gallery-tall' },
+    { id: 10, src: '/Gallery section/Screenshot 2026-09-04 165714.png', alt: 'Gallery Image 10', className: '' }
   ];
 
   return (

@@ -4,34 +4,54 @@ import './GalleryPage.css';
 
 const galleryData = [
   {
-    src: "/Real images/ChatGPT Image Sep 4, 2026, 04_23_59 PM.png",
-    title: "ROE Action",
-    desc: "Intense ₹5K & ₹10K ROE games"
+    src: "/Gallery section/IMG_2993.JPG",
+    title: "Action at the Tables",
+    desc: "Intense gameplay and focus"
   },
   {
-    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_21_58 AM.png",
-    title: "High-Stakes PLO5",
-    desc: "Established ₹50K PLO5 tables"
+    src: "/Gallery section/IMG_3012.JPG",
+    title: "High-Stakes Thrills",
+    desc: "Premium poker experience"
   },
   {
-    src: "/dining_convenience.jpg",
-    title: "Dining & Convenience",
-    desc: "Separate dining area for a peaceful break"
+    src: "/Gallery section/IMG_3031.JPG",
+    title: "Vibrant Atmosphere",
+    desc: "Exciting games round the clock"
   },
   {
-    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_31_30 AM.png",
+    src: "/Gallery section/IMG_3034.JPG",
     title: "Incredible Player Pool",
     desc: "Strong engagement and relationships"
   },
   {
-    src: "/Real images/IMG_2949.jpg",
+    src: "/Gallery section/IMG_3036.JPG",
     title: "Tournaments",
     desc: "Upcoming Texas Hold'em events"
   },
   {
-    src: "/Real images/ChatGPT Image Sep 3, 2026, 11_16_20 AM.png",
-    title: "Professional Team",
-    desc: "Friendly staff ensuring instant cashouts"
+    src: "/Gallery section/IMG_3080.JPG",
+    title: "Professional Environment",
+    desc: "Friendly staff and fair play"
+  },
+  {
+    src: "/Gallery section/Screenshot 2026-09-04 164706.png",
+    title: "Gallery Moment",
+    desc: "Exclusive poker action"
+  },
+  {
+    src: "/Gallery section/Screenshot 2026-09-04 165111.png",
+    title: "Premium Tables",
+    desc: "Luxury gaming experience"
+  },
+  {
+    src: "/Gallery section/Screenshot 2026-09-04 165632.png",
+    title: "The Poker Room",
+    desc: "Where the action happens"
+  },
+  {
+    src: "/Gallery section/Screenshot 2026-09-04 165714.png",
+    title: "Player Engagement",
+    desc: "Building a strong community"
   }
 ];
 
